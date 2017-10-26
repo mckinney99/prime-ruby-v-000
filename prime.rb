@@ -1,11 +1,11 @@
 
 
 def prime(n)
-    if n <= 1
-        false
-    elsif n == 2
-        true
+  return false if n < 2 
+  return true if n == 3 || n == 2 
+    if (2...n-1).any?{|i| n % i == 0}
+      false
     else
-        (2..n/2).none? { |i| n % i == 0}
+      true
     end
 end
