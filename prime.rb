@@ -5,5 +5,5 @@ def prime(i)
   else
     return false
 
-end 
+end
 end
