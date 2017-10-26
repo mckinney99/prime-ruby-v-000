@@ -1,6 +1,6 @@
 # Add  code here!
 def prime(i)
-  if i.prime
+  if i == prime.i
     return true
   else
     return false
